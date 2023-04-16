@@ -1,0 +1,88 @@
+.imgTelecharge {
+  width: 100%;
+}
+
+.img2 {
+  
+  background-image: url("../image/telecharge.png");
+
+  background-size: cover;
+
+  /* background-size: 100%; */
+  background-repeat: round;
+
+
+  /* color: #1b1b1b; */
+    height: calc(102vh - 125px);
+    /* font-size: 30px;
+    font-weight: bold; */
+    line-height: 50px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    
+
+  
+
+}
+
+.qqq {
+  padding-bottom: 80px;
+}
+
+
+
+.qui {
+  color: black;
+  font-size: 23px;
+  
+
+}
+
+h5 {
+  color: #ffa80f;
+}
+
+.contac {
+  *color: #1b1b1b;
+  height: calc(100vh - 125px);
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: initial;
+}
+
+.CSSquiSon {
+  height: 100%;
+    width: 84%;
+}
+
+
+.img5{
+  width: 65%;
+}
+
+.img5:hover{
+  width: 70%;
+}
+
+.blockTelecharge {
+  display: flex;
+  margin-bottom: 115px;
+  width: 100%;
+  max-width: 601px;
+
+
+
+}
+
+
+
+
+
+
+
+
