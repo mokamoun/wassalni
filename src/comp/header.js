@@ -87,20 +87,30 @@ const Header = () => {
         </ul>
       </header>
 
-      {/* <header style={{ backgroundColor: "red" }} className="show-when-mobile">
-        <h1>c4a.dev</h1>
+       <header style={{ backgroundColor: "black" }} className="show-when-mobile">
+        <h1>
+        <Link to="/">
+          <img src={logo} alt="logo" />
+          </Link>
+        </h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>
         <input id="burger" type="checkbox" />
         <div className="show-on-click">
+
+
           <div className="main-div">
             <label htmlFor="html">
-              HTML <i className="fas fa-plus" />
+            <NavLink className="main-link" to="/">
+             ACCEUIL
+            </NavLink>
+            {/* <i className="fas fa-plus" /> */}
+
             </label>
             <input id="html" type="checkbox" />
             <ul className="sub-div">
-              <li>
+              {/* <li>
                 <a href="">Full Course</a>
               </li>
               <li>
@@ -108,28 +118,33 @@ const Header = () => {
               </li>
               <li>
                 <a href="">learn in 1h</a>
-              </li>
+              </li> */}
             </ul>
           </div>
+
+
           <div className="main-div">
             <label htmlFor="css">
-              CSS <i className="fas fa-plus" />
+            <NavLink className="main-link" to="/telecharger">
+              TELECHARGER NOTRE APPLICATION
+            </NavLink>
+            {/* <i className="fas fa-plus" /> */}
             </label>
             <input id="css" type="checkbox" />
             <ul className="sub-div">
-              <li>
+              {/* <li>
                 <a href="">Full Course</a>
               </li>
               <li>
                 <a href="">CSS Examples</a>
-              </li>
-              <li>
-                <label className="mini-projects" htmlFor="mini">
+              </li> */}
+              {/* <li> */}
+                {/* <label className="mini-projects" htmlFor="mini">
                   mini projects <i className="fas fa-plus" />
-                </label>
-                <input id="mini" type="checkbox" />
-                <ul className="sub-sub-div">
-                  <li>
+                </label> */}
+                {/* <input id="mini" type="checkbox" /> */}
+                {/* <ul className="sub-sub-div"> */}
+                  {/* <li>
                     <a href="">project 1</a>
                   </li>
                   <li>
@@ -137,24 +152,48 @@ const Header = () => {
                   </li>
                   <li>
                     <a href="">project 3</a>
-                  </li>
-                </ul>
-              </li>
+                  </li> */}
+                {/* </ul> */}
+              {/* </li> */}
             </ul>
           </div>
+
+
+
           <div className="main-div">
             <label htmlFor="js">
-              Contact <i className="fas fa-plus" />
+            <NavLink className="main-link" to="/quiSommesNous">
+              QUI SOMMES NOUS?
+            </NavLink> 
+              {/* <i className="fas fa-plus" />      hedi el + */}
             </label>
-            <input id="js" type="checkbox" />
+            {/* <input id="js" type="checkbox" />
             <ul className="sub-div">
               <li>
                 <a href="">coming soon🔥</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
+
+          <div className="main-div">
+            <label htmlFor="js">
+            <NavLink className="main-link" to="/Contact">
+              CONTACT
+            </NavLink>
+              {/* <i className="fas fa-plus" />      hedi el + */}
+            </label>
+            {/* <input id="js" type="checkbox" />
+            <ul className="sub-div">
+              <li>
+                <a href="">coming soon🔥</a>
+              </li>
+            </ul> */}
+          </div>
+
+
+
         </div>
-      </header> */}
+      </header> 
     </div>
   );
 };

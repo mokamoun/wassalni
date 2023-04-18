@@ -36,8 +36,8 @@
 
 .main-link:hover,  .main-link.active{
   color: #ee1155;
-  box-shadow: 0 0 5px cyan;
-  border-radius: 5px;
+  /* box-shadow: 0 0 5px cyan; */
+  /* border-radius: 5px; */
 
 }x
 

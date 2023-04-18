@@ -51,7 +51,7 @@ label:hover,
 label:hover .fas
 
 {
-  color: cyan;
+  color: #ffa80f;
   letter-spacing: 2px;
 }
 
@@ -61,7 +61,7 @@ label:hover .fas
 }
 
 .main-div{
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #ffa80f;
 }
 
 /* ====================================
